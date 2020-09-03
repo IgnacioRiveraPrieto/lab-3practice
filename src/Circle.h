@@ -25,5 +25,7 @@ class Circle{
         return this->d;
     }
 
+    double calcArea();
+
 
 };
