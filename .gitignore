@@ -3,3 +3,5 @@ Circles.exe
 main.d
 obj/main.o
 Makefile
+Circle.d
+obj/Circle.o
