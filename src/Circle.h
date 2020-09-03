@@ -28,5 +28,9 @@ class Circle{
     double calcArea();
     double calcCircum();
 
+    static bool isSameArea(Circle *C1, Circle *C2){
+        return C1->calcArea() == C2->calcArea(); 
+    }
+
 
 };
