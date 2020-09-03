@@ -26,6 +26,7 @@ class Circle{
     }
 
     double calcArea();
+    double calcCircum();
 
 
 };

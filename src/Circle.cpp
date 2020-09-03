@@ -7,3 +7,9 @@ double Circle::calcArea(){
     double area = pi * pow(this->r, 2);
     return area;
 }
+
+double Circle::calcCircum(){
+    const double pi = 3.14;
+    double Circum =  2.0 * pi * this-> r;
+    return Circum;
+}
